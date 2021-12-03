@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Top offerts</title>
+  <link rel="stylesheet" href="css/bulma.min.css">
+  <script src="https://kit.fontawesome.com/946d5a0918.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar has-shadow is-white is-fixed-top ">
+    <!-- logo -->
+    <div class="navbar-brand">
+      <a href="" class="navbar-item">
+        <img src="media/img/Gshomuidle.gif" alt="Site Logo" style="max-height: 70px;" class="py-2 px-2">
+      </a>
+      <a class="navbar-burger" id="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+    </div>
+
+    <div class="navbar-menu" id="nav-links">
+      <div class="navbar-end">
+        <a href="" class="navbar-item is-active has-text-black">Principal</a>
+        <a href="" class="navbar-item has-text-black">More icon</a>
+        <a href="" class="navbar-item has-text-black" >Cart (0)</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Products info-->
+  <section class="section">
+    <div class="container">
+      <div class="columns is-vcentered is-multiline">
+        <div class="column is-6-tablet is-3-desktop">
+          <h1 class="is-size-3-mobile is-size-1-desktop title">Laptop</h1>
+          <h2 class="is-size-3-mobile is-size-2-desktop subtitle">HP-Ryzen3</h2>
+          <p >
+            PC portátil 2021 HP 15.6'' HD AMD Dual-Core Ryzen 3 3250U 4GB DDR4 128GB SSD + 1TB HDD AMD Radeon Graphics 
+            USB-C HDMI WiFi AC RJ45 Bluetooth Webcam HP Fast Charge Windows 10 Home
+          </p>
+
+        </div>
+        <div class="column is-6-tablet is-5-desktop has-text-centered">
+          <img src="media/img/HP-245-G7-Ryzen3-3250U-JKA.png" alt="Laptop Top Offert">
+
+        </div>
+        <div class="column is-12-tablet is-4-desktop">
+          <div class="is-size-1 mb4 has-text-weight-normal">$400</div>
+          <!--<p class="mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda, modi!</p>-->
+          <button class="button is-primary" id="Cart">Add to cart</button>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section">
+    <div class="container">
+      <div class="columns is-8 is-variable">
+        <div class="column is-7-tablet">
+          <div class="tabs is-boxed">
+            <ul>
+              <li class="is-active" data-target="Products-info">
+                <a>Product information</a>
+              </li>
+              <li data-target="More-Info">
+                <a>More information</a>
+              </li>
+            </ul>
+          </div>
+          <div class="px-2" id="tab-content">
+            <div id="Products-info">
+              <h3 class="is-size-5 title">Products Information</h3>
+              <p>
+                Potente rendimiento con AMD Ryzen 3 3250U Dual Core】<br>
+                procesador AMD Ryzen 3 3250U Dual Core (frecuencia base de 2,6 GHz, hasta 3,5 GHz, caché de 4 MB, 4 hilos)<br>
+                4 GB DDR4 SDRAM, 128 GB M.2 NVMe unidad de estado sólido + 1 TB 5400 RPM HDD,sin DVD<br>
+                Pantalla y gráficos:<br> 
+                15.6 pulgadas diagonal HD BrightView microborde, 220 nits, 45% NTSC (1366 x 768), gráficos AMD Radeon<br>
+                Conectividad: <br>
+                Realtek RTL8821CE 802.11b/g/n/ac (1x1) y Bluetooth 4.2 Combo, 1 USB 3.1 Gen 1 Tipo C (transferencia de datos solamente, <br>
+                5 Gb/s) de señalización, 2 USB 3.1 Gen 1 Tipo A (transferencia de datos); 1 x AC pin inteligente; 1 x RJ4. 5; 1 unidad.<br>
+                 HDMI 1.4b; 1 combo de auriculares/micrófono; 1 lector de tarjetas SD multimedia y Windows 10 Home<br>
+              </p>
+            </div>
+            <div id="More-Info" class="is-hidden">
+              <h3 class="is-size-5 title">More Info</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique nostrum esse perferendis 
+                obcaecati alias cumque, blanditiis ex eaque non maiores.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="column is-5-desktop">
+          <!-- Message Box-->
+          <div class="message is-danger">
+            <div class="message-header">
+              <p>Acerca de nuestros Productos</p>
+            </div>
+            <div class="message-body">
+              <p>
+                Ninguno de los productos Presentados son propiedad de la marca o el creador del sitio web.
+                El sitio solo presta servicio como buscador y presentador de las mejores ofertas disponibles.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <h3 class="title has-text-centered is-size-4">Otros Productos.</h3>
+      <div class="columns mt-5 is-8 is-variable">
+        <div class="column is-4-tablet is-4-desktop">
+          <div class="card">
+            <div class="card-image has-text-centered px-6">
+              <img src="media/img/120313.png" alt="#1">
+            </div>
+            <div class="card-content">
+              <p>2345</p>
+              <p class="title is-size-5">wertyu</p>
+            </div>
+            <footer class="card-footer">
+              <p class="card-footer-item">
+                <a href="" class="has-text-grey">More Info</a>
+              </p>
+              <p class="card-footer-item">
+                <a href="" class="has-text-grey">Add cart</a>
+              </p>
+            </footer>
+          </div>
+        </div>
+        <div class="column is-4-tablet is-4-desktop">
+          <div class="card">
+            <div class="card-image has-text-centered px-6">
+              <img src="media/img/LAPTOP-ACER-NITRO-5-AN515-55-57JM-WDWD-GH.png" alt="#1">
+            </div>
+            <div class="card-content">
+              <p>2345</p>
+              <p class="title is-size-5">wertyu</p>
+            </div>
+            <footer class="card-footer">
+              <p class="card-footer-item">
+                <a href="" class="has-text-grey">More Info</a>
+              </p>
+              <p class="card-footer-item">
+                <a href="" class="has-text-grey">Add cart</a>
+              </p>
+            </footer>
+          </div>
+        </div>
+        <div class="column is-4-tablet is-4-desktop">
+          <div class="card">
+            <div class="card-image has-text-centered px-6">
+              <img src="media/img/laptop-dell-alienware-aw17r5-9729slv-i9-8950hk-32gb-1tb-256gb-ssd-nvidia-gtx1080-8gb-173.jpg" alt="#1">
+            </div>
+            <div class="card-content">
+              <p>2345</p>
+              <p class="title is-size-5">wertyu</p>
+            </div>
+            <footer class="card-footer">
+              <p class="card-footer-item">
+                <a href="" class="has-text-grey">More Info</a>
+              </p>
+              <p class="card-footer-item">
+                <a href="" class="has-text-grey">Add cart</a>
+              </p>
+            </footer>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Modals-->
+  <div class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-content has-background-grey py-5 px-5">
+      <h3 class="title mb-6">qwertyutrew</h3>
+    </div>
+  </div>
+
+  <!--Footer-->
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>Copyright 2021 Kakarot1125 Top Offers</p>
+    </div>
+  </footer>
+  <script src="js/Index.js"></script>
+</body>
+</html>
